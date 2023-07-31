@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.color-text {
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+
+    transition: background 0.3s;
+}
+
+.color-text:hover {
+    background: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.lock-img {
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    transition: font-size 0.3s;
+}
+
+.lock-img:hover {
+    font-size: 2rem;
+    cursor: pointer;
+}
